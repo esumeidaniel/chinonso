@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="960" viewBox="0 0 460 960">
+  <defs>
+    <clipPath id="screen"><rect x="20" y="20" width="420" height="920" rx="38"/></clipPath>
+    <filter id="phoneShadow" x="-30%" y="-20%" width="160%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#111827" flood-opacity=".22"/></filter>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#171b24" flood-opacity=".06"/></filter>
+    <linearGradient id="art1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0cd"/><stop offset="1" stop-color="#eac279"/></linearGradient>
+    <linearGradient id="art2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7ead3"/><stop offset="1" stop-color="#d8b27c"/></linearGradient>
+    <style>text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#20242c}.muted{fill:#787d86}.tiny{font-size:10px;font-weight:800;letter-spacing:1.4px}.small{font-size:12px}.body{font-size:13px}.name{font-size:18px;font-weight:780}.price{font-size:17px;font-weight:850}.card{fill:#fff;stroke:#e5e1d8}.icon{fill:none;stroke:#20242c;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}</style>
+  </defs>
+  <rect width="460" height="960" fill="#eceae4"/>
+  <rect x="18" y="18" width="424" height="924" rx="40" fill="#171b24" filter="url(#phoneShadow)"/>
+  <g clip-path="url(#screen)">
+    <rect x="20" y="20" width="420" height="920" fill="#f8f7f3"/>
+    <rect x="20" y="20" width="420" height="30" fill="#fff"/><text x="45" y="40" font-size="11" font-weight="800">9:41</text><path d="M376 34h3m4 0h3m4 0h3" stroke="#20242c" stroke-width="2"/><rect x="402" y="29" width="21" height="10" rx="3" fill="none" stroke="#20242c"/><rect x="404" y="31" width="15" height="6" rx="1" fill="#20242c"/>
+    <rect x="20" y="50" width="420" height="68" fill="#fff"/><path d="M20 117.5h420" stroke="#e7e4dc"/>
+    <g transform="translate(34 66)"><rect width="36" height="36" rx="10" fill="#f4a81c"/><path d="M10 26h16M13 26V13h10v13M16 13v-3h4v3" class="icon"/><text x="47" y="23" font-size="15" font-weight="850">Harbor &amp; Hearth</text></g>
+    <g transform="translate(303 72)"><path d="M0 17h18M0 11h18M0 5h18" class="icon"/><circle cx="62" cy="11" r="9" class="icon"/><path d="m68 17 7 7" class="icon"/><rect x="93" y="1" width="24" height="21" rx="5" fill="#fff1d4"/><path d="M99 8h12v9H99zM102 8V5h6v3" class="icon"/></g>
+    <g transform="translate(34 148)"><text class="tiny" fill="#b87400">PUBLISHED MENU</text><text y="40" font-size="29" font-weight="850" letter-spacing="-1">Menu at Harbor &amp; Hearth</text><text y="70" class="small" font-weight="750">Location</text><rect y="80" width="392" height="44" rx="9" class="card"/><text x="14" y="107" class="body">Downtown</text><path d="m365 98 6 7 6-7" class="icon"/>
+      <rect y="142" width="392" height="103" rx="14" class="card"/><rect x="12" y="12" width="368" height="42" rx="9" fill="#fff" stroke="#ddd9d0"/><circle cx="31" cy="33" r="6" fill="none" stroke="#7d828b" stroke-width="2"/><path d="m35 38 6 6" stroke="#7d828b" stroke-width="2"/><text x="53" y="37" class="body muted">Search the menu</text>
+      <g transform="translate(12 65)" font-size="11" font-weight="750"><rect width="43" height="27" rx="14" fill="#f4a81c"/><text x="13" y="18">All</text><rect x="50" width="68" height="27" rx="14" class="card"/><text x="60" y="18">Starters</text><rect x="125" width="58" height="27" rx="14" class="card"/><text x="138" y="18">Mains</text><rect x="190" width="68" height="27" rx="14" class="card"/><text x="201" y="18">Desserts</text><rect x="265" width="61" height="27" rx="14" class="card"/><text x="278" y="18">Drinks</text></g>
+    </g>
+    <g transform="translate(34 411)">
+      <g filter="url(#cardShadow)"><rect width="392" height="214" rx="14" class="card"/><rect width="392" height="82" rx="14" fill="url(#art1)"/><rect y="69" width="392" height="14" fill="url(#art1)"/><circle cx="196" cy="41" r="29" fill="#fffaf0" stroke="#d2aa61" stroke-width="2"/><path d="M173 37q11-17 23 0t23 0M174 49q11-17 23 0t23 0" fill="none" stroke="#c47716" stroke-width="4" stroke-linecap="round"/><g transform="translate(15 105)"><text class="tiny" fill="#95620c">STARTERS</text><text y="27" class="name">Crispy Calamari</text><text y="51" class="small muted">Lemon, herbs and roasted garlic aioli.</text><text y="85" class="price">$14.00</text></g></g>
+      <g transform="translate(0 230)" filter="url(#cardShadow)"><rect width="392" height="214" rx="14" class="card"/><rect width="392" height="82" rx="14" fill="url(#art2)"/><rect y="69" width="392" height="14" fill="url(#art2)"/><ellipse cx="196" cy="42" rx="42" ry="23" fill="#fff8e9" stroke="#9c7845" stroke-width="2"/><path d="M165 44c18-22 40 20 61-4M170 52c21-21 35 15 54-4M176 35c18-13 28 13 43 2" fill="none" stroke="#a67a39" stroke-width="3"/><g transform="translate(15 105)"><text class="tiny" fill="#95620c">MAINS</text><text y="27" class="name">Truffle Mushroom Pasta</text><text y="51" class="small muted">Wild mushrooms, parmesan and fresh herbs.</text><text y="85" class="price">$24.00</text></g></g>
+      <g transform="translate(0 460)" filter="url(#cardShadow)"><rect width="392" height="214" rx="14" class="card"/><rect width="392" height="82" rx="14" fill="url(#art1)"/><rect y="69" width="392" height="14" fill="url(#art1)"/><ellipse cx="196" cy="41" rx="42" ry="24" fill="#fffaf0"/><path d="M172 49q24-40 49 0-24 13-49 0" fill="#d28a38"/><circle cx="226" cy="29" r="7" fill="#71904a"/><g transform="translate(15 105)"><text class="tiny" fill="#95620c">MAINS</text><text y="27" class="name">Herb-Roasted Chicken</text><text y="51" class="small muted">Seasonal vegetables and rosemary jus.</text><text y="85" class="price">$27.00</text></g></g>
+    </g>
+    <rect x="177" y="925" width="106" height="5" rx="3" fill="#171b24"/>
+  </g>
+</svg>
